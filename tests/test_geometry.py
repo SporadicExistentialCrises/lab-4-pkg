@@ -48,4 +48,3 @@ def test_area_stats():
     # raises valueError if no shapes provided
     with pytest.raises(ValueError):
         area_stats()
-
